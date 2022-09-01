@@ -430,8 +430,8 @@ main (int argc, char *argv[])
   PrintGnuplottableBuildingListToFile ("buildings.txt");
   //Netanim Settings
   AnimationInterface anim ("scratch/test_v2x.xml");
-  anim.UpdateNodeDescription (tod_ue_nodes.Get (0), "UE0"); //Ptr<node> 和description字符串
-  anim.UpdateNodeDescription (tod_ue_nodes.Get (1), "UE1");
+  anim.UpdateNodeDescription (tod_ue_nodes.Get (0), "UE11"); //the first vehicle
+  anim.UpdateNodeDescription (tod_ue_nodes.Get (1), "UE12");//the second vehicle
   anim.UpdateNodeDescription (enb_nodes.Get (0), "eNB0");
   anim.UpdateNodeDescription (enb_nodes.Get (1), "eNB1");
   anim.SetMaxPktsPerTraceFile (5000000000);
